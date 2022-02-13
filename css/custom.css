@@ -1,0 +1,53 @@
+/** ADD YOUR AWESOME CODES HERE **/
+.page{
+	width: 100%;
+	margin-bottom: 3em;
+	border-radius: 5px;
+	padding: 30px;
+	.headingpage{
+		font-weight: 700;
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+#navi {
+	top: 180px;
+	position: -webkit-sticky;
+	position: sticky;
+	margin: 0; }
+	#navi ul {
+	  margin: 0;
+	  padding: 0; }
+	#navi li {
+	  font-weight: 700;
+	  list-style: none;
+	  margin-bottom: 15px; }
+	  #navi li a {
+		color: #263b5e; }
+		#navi li a.current {
+		  color: #17b978;
+		  margin-left: 20px;
+		  position: relative; }
+		  #navi li a.current:after {
+			position: absolute;
+			top: 50%;
+			left: -24px;
+			width: 20px;
+			height: 2px;
+			content: '';
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+			background: #17b978; 
+		}
+nav{
+	display: block;
+}
+
+@media (max-width: 767px) {
+	#exp-nav{
+		visibility: hidden;
+		display: none;
+	}
+}
